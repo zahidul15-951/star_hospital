@@ -11,7 +11,6 @@ Django = "==3.0.5"
 dj-database-url = "*"
 whitenoise = "*"
 gunicorn = "*"
-psycopg2 = "*"
 
 [dev-packages]
 
