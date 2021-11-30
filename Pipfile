@@ -8,6 +8,10 @@ xhtml2pdf = "*"
 django-widget-tweaks = "==1.4.8"
 sqlparse = "==0.3.1"
 Django = "==3.0.5"
+dj-database-url = "*"
+whitenoise = "*"
+gunicorn = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
