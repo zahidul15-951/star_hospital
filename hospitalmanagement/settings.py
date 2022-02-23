@@ -144,7 +144,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'zahidul15-951@diu.edu.bd' 
-EMAIL_HOST_PASSWORD = '181-15-951'
+# EMAIL_HOST_PASSWORD = '181-15-951'
+EMAIL_HOST_PASSWORD = 'usfllwkrywkmvpfi'
 HEROKU_PASSWORD = '181-15-zahidul'
 EMAIL_RECEIVING_USER = ['hamim15-954@diu.edu.bd'] # email on which you will receive messages sent from website
 
