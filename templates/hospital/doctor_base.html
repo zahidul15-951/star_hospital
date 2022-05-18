@@ -277,7 +277,8 @@
   <nav class="menu" tabindex="0">
     <div class="smartphone-menu-trigger"></div>
     <header class="avatar">
-      <img src="{% if request.user.doctor.profile_pic %}{% static request.user.doctor.profile_pic.url %}{% endif %}" alt="Profile Pic" />
+      <script type="text/javascript">console.log("{{ request.user.doctor.profile_pic.url }}");</script>
+      <img src="{% if request.user.doctor.profile_pic %}{{ request.user.doctor.profile_pic.url }}{% endif %}" alt="Profile Pic" />
       <br><br>
       <h6>Doctor</h6>
       <h2>{{request.user.first_name}}</h2>
